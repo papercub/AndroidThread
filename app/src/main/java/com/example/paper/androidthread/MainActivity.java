@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         protected void onPostExecute(Bitmap bitmap) {
             ivImage.setImageBitmap(bitmap);
+            super.onPostExecute(bitmap);
         }
     }
 
